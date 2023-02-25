@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Tilt Neon', cursive;
+  background-color: white;
+  color: black;
+  width: 550px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #6274e7 1.18%, #8752a3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header-logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.header-heading {
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+.header-subheading {
+  font-size: 1rem;
+}
+
+/* Form */
+.form-container {
+  padding: 36px
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-input {
+  font-family: 'Tilt Neon', cursive;
+  text-indent: 10px;
+  border: 1px solid #6274e7;
+  border-radius: 5px;
+}
+
+.form-button {
+  grid-column: 1 / -1;
+  font-family: 'Tilt Neon', cursive;
+  font-size: 1.10rem;
+
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #6274e7 1.18%, #8752a3 100%);
+  color: white;
+
+  cursor: pointer;
+}
+
+.form-button:hover {
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #8752a3 1.18%, #6274e7 100%);
+  color: white;
+}
+
+
+.meme-image{
+  max-width: 100%;
+  margin-top: 20px;
+}
+
